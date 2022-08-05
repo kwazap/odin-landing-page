@@ -148,3 +148,44 @@ button{
     align-self: flex-end;
     margin-right: 16px;
 }
+
+.section3 {
+    display: flex;
+    background-color: #3882F6;
+    border-radius: 8px;    
+    box-sizing: border-box;
+    margin: 100px 0;
+    padding: 48px 0;
+    width: 1024px;
+    justify-content: space-between;
+}
+
+.section3-p1,
+.section3-p2 {
+    color: #F9FAF8;
+}
+
+.section3-p1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.section3-p2 {
+    font-size: 18px;
+}
+
+.section3-left {
+    margin-left: 120px;
+}
+
+.section3-button {
+    margin-right: 100px;
+    border-radius: 8px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 8px 32px;
+    border: 2px solid #F9FAF8;
+    font-weight: bold;
+    font-size: 16px;
+    height: fit-content;
+}
